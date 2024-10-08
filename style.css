@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/*
+
+NAV BAR
+
+*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo__img {
+    height: 40px;
+    margin: 24px 12px 24px 32px;
+}
+
+.logo--name {
+    color: #243E63;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    padding-bottom: 4px;
+    font-weight: 900;
+    font-size: 24px;
+    margin-left: 0;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+}
+
+
+.nav__links {
+    display: flex;
+}
+
+.nav__link {
+    text-decoration: none;
+    margin: 4px 24px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #243E63;
+}
+
+
+.nav__link link--signup {
+    margin-right: 40px;
+}
+
+.nav__link link--login {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px 24px;
+}
+
+.btn__sign-up {
+    background-color: rgb(100 21 255);
+    color: white;
+    padding: 12px 32px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+}
+
+/* 
+
+LANDING
+
+*/
+
+.hdr__container {
+    margin: 32px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 96px 0 0 32px;
+}
+
+.hdr__title {
+    font-size: 38px;
+    width: 100%;
+    color: #1A202C
+}
+
+.hdr__para {
+    width: 100%;
+    font-size: 16px;
+    margin: 32px 0;
+    color: #243E63;
+}
+
+.input-email {
+    padding: 22px 148px 20px 32px;
+    border-radius: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    border-color: rgb(226, 232, 240);
+}
+
+.btn__email {
+    background-color: #6415FF;
+    color: white;
+    padding: 16px 36px;
+    margin: 6px 8px;
+    border: none;
+    border-radius: 44px;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    transform: translateX(-110%);
+    position: absolute;
+}
+
+.text--purple {
+    color: #6415FF;
+}
+
+.customers {
+    margin-top: 80px;
+    font-size: 12px;
+    color: #A0AEC0;
+    font-weight: bold;
+    word-spacing: 4px;
+}
+
+.customers--img {
+    padding: 0 64px 0 0;
+    margin: 16px 0 0;
+    opacity: 50%;
+}
+
+.hdr__img--wrapper {
+    display: flex;
+    width: 60%;
+}
+
+.hdr--img {
+    width: 100%;
+}
